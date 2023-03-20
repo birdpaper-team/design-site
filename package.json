@@ -1,0 +1,27 @@
+{
+  "name": "design-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "site"
+  ],
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "cz-customizable": "^7.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "keywords": [
+    "components",
+    "design"
+  ],
+  "author": "木亦Sam",
+  "license": "MIT"
+}
