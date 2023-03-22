@@ -1,0 +1,158 @@
+/**
+ * @Author: Sam
+ * @Date: 2021-11-29 14:46:10
+ * @LastModifiedBy:   Sam
+ * @LastModifiedTime: 2021-11-29 14:46:10
+ */
+
+.app-footer {
+  position: relative;
+  .no-select;
+
+  .app-footer-container {
+    padding: 60px 0;
+
+    .footer-menu-list {
+      display: flex;
+      align-content: flex-start;
+      align-items: stretch;
+      justify-content: center;
+
+      .footer-menu-list-title {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        .footer-menu-list-item {
+          font-size: 14px;
+          line-height: 2.2;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// .footer-bar {
+//   text-align: center;
+
+//   .footer-bar-text {
+//     font-size: 14px;
+//     padding: 16px 0;
+//     letter-spacing: .5px;
+//     .no-select;
+
+//     a {
+//       font-size: 14px;
+//       font-weight: 500;
+//       vertical-align: unset;
+//       transition: color .3s ease;
+//     }
+
+//     .record-num {
+//       margin-left: 0;
+//       font-weight: 400;
+//     }
+//   }
+// }
+
+.light-mode {
+  .app-footer {
+    background-color: @gary-1;
+    transition: all .4s ease;
+
+    .app-footer-container {
+      .footer-menu-list {
+        .footer-menu-list-title {
+          color: @gary-9;
+          transition: all .4s ease;
+        }
+
+        ul {
+          .footer-menu-list-item {
+            color: @gary-7;
+            transition: all .4s ease;
+          }
+        }
+      }
+    }
+  }
+
+  // .footer-bar {
+  //   background-color: @gary-1;
+  //   border-top: 1px solid @gary-3;
+  //   transition: all .4s ease;
+
+  //   .footer-bar-text {
+  //     color: @gary-6;
+  //     transition: all .4s ease;
+
+  //     a {
+  //       color: @gary-7;
+  //       transition: all .4s ease;
+
+  //       &:hover {
+  //         color: @primary-3;
+  //         transition: all .4s ease;
+  //       }
+  //     }
+
+  //     .record-num {
+  //       color: @gary-6;
+  //       transition: all .4s ease;
+  //     }
+  //   }
+  // }
+}
+
+.dark-mode {
+  .app-footer {
+    background-color: @gary-10;
+    transition: all .4s ease;
+
+    .app-footer-container {
+      .footer-menu-list {
+        .footer-menu-list-title {
+          color: @gary-3;
+          transition: all .4s ease;
+        }
+
+        ul {
+          .footer-menu-list-item {
+            color: @gary-5;
+            transition: all .4s ease;
+          }
+        }
+      }
+    }
+  }
+
+  // .footer-bar {
+  //   background-color: @gary-10;
+  //   border-top: 1px solid @gary-8;
+  //   transition: all .4s ease;
+
+  //   .footer-bar-text {
+  //     color: @gary-4;
+  //     transition: all .4s ease;
+
+  //     a {
+  //       color: @gary-3;
+  //       transition: all .4s ease;
+
+  //       &:hover {
+  //         color: @primary-3;
+  //         transition: all .4s ease;
+  //       }
+  //     }
+
+  //     .record-num {
+  //       color: @gary-3;
+  //       transition: all .4s ease;
+  //     }
+  //   }
+  // }
+}

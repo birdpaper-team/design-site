@@ -1,0 +1,75 @@
+/**
+ * @Author: Sam
+ * @Date: 2021-11-29 09:19:39
+ * @LastModifiedBy:   Sam
+ * @LastModifiedTime: 2021-11-29 09:19:39
+ */
+
+@media only screen and (max-width: 1200px) {
+  .the-title {
+    margin: 10px 0 10px 5% !important;
+    transition: all 0.2s ease;
+  }
+}
+
+.the-title {
+  position: relative;
+  margin: 30px 0 30px 0;
+  transition: all 0.2s ease;
+  .no-select;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+
+  .bold-title {
+    color: @gary-8;
+    font-size: 32px;
+    font-weight: normal;
+  }
+
+  .sub-title {
+    margin-top: 8px;
+    color: @gary-6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    padding-left: 2px;
+  }
+}
+
+.light-mode {
+  h2 {
+    color: @gary-7;
+    transition: all 0.4s ease;
+  }
+
+  .bold-title {
+    color: @gary-8;
+    transition: all 0.4s ease;
+  }
+
+  .sub-title {
+    color: @gary-6;
+    transition: all 0.4s ease;
+  }
+}
+.dark-mode {
+  h2 {
+    color: @gary-4;
+    transition: all 0.4s ease;
+  }
+
+  .bold-title {
+    color: @gary-3;
+    transition: all 0.4s ease;
+  }
+
+  .sub-title {
+    color: @gary-5;
+    transition: all 0.4s ease;
+  }
+}
